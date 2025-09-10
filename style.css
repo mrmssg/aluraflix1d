@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header{
+    border-bottom: solid 2px rgb(71, 99, 211);
+    font-size: 32px;
+    padding: 20px;
+    color: rgb(36, 77, 239);
+}
+
+.categoria h2{
+    font-size: 24px;
+    text-align: left;
+    color:rgb(42, 122, 228) ;
+    padding: 2px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 160px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: solid 6px rgb(223, 240, 95);
+}
